@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid black;
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    flex-direction: row;   
+    box-sizing: border-box;    
+    margin: 5px;
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+}
+
+.text {
+    width: 100vw;
+    height: 100px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
