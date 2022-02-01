@@ -3,6 +3,7 @@ import IdCard from "../src/assets/components/IdCard"
 import ImageOne from "./assets/images/maxence.png"
 import Greetings from "../src/assets/components/Greetings"
 import Random from "../src/assets/components/Random"
+import BoxColor from "../src/assets/components/BoxColor"
 
 function App() {
   return (
@@ -24,6 +25,12 @@ function App() {
         <h1> Random </h1>
         <Random min={1} max={6}/>
         <Random min={1} max={100}/>       
+      </div>
+
+      <div>
+        <h1> BoxColor </h1>
+        <BoxColor r={255} g={0} b={0} />
+        <BoxColor r={128} g={255} b={0} />
       </div>
 
     </div>
