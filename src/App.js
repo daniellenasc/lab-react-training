@@ -4,8 +4,9 @@ import ImageOne from "./assets/images/maxence.png"
 import Greetings from "../src/assets/components/Greetings"
 import Random from "../src/assets/components/Random"
 import BoxColor from "../src/assets/components/BoxColor"
-
 import Rating from "../src/assets/components/Rating"
+
+import LikeButton from "../src/assets/components/LikeButton"
 
 import ClickablePicture from "../src/assets/components/ClickablePicture"
 import Pessoa from "../src/assets/images/maxence.png"
@@ -51,12 +52,16 @@ function App() {
       </div>
 
       <div>
+        <h1>LikeButton</h1>
+        <LikeButton />
+      </div>
+      
+      <div>
         <h1> ClickablePicture </h1>
         <ClickablePicture
           img={Pessoa}
           imgClicked={PessoaOculos}
-        />
-        
+        />        
       </div>
 
       
